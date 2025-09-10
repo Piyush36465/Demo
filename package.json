@@ -12,5 +12,6 @@
   "description": "",
   "dependencies": {
     "node-cache": "^5.1.2"
+    "express": "^4.19.2"
   }
 }
