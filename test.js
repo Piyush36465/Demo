@@ -8,7 +8,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 const users = [
   { id: "101", name: "Piyush", info: "Piyush love to read novel" },
   { id: "102", name: "Raj", info: "raj is a psycopath" },
-  { id: "103", name: "Charu", info: "Charu is a witch" },
+  { id: "103", name: "Charu", info: "Charu is a" },
 ];
 
 app.get("/", (req, res) => {
@@ -48,4 +48,3 @@ app.post("/check", (req, res) => {
 app.listen(3030, () => {
   console.log("connected");
 });
-
