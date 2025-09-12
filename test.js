@@ -46,5 +46,6 @@ app.post("/check", (req, res) => {
 });
 
 app.listen(3030, () => {
-  console.log(connected);
+  console.log("connected");
 });
+
